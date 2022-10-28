@@ -14,7 +14,7 @@ import mx.com.encargalo.R;
 
 
 public class mio_frgmisordenesprincipal extends Fragment {
-    TextView txtdetalle;
+    TextView txtdetalle, txtchat;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -26,6 +26,13 @@ public class mio_frgmisordenesprincipal extends Fragment {
             @Override
             public void onClick(View view) {
                 Navigation.findNavController(view).navigate(R.id.nav_misordenesdetalleproducto);
+            }
+        });
+        txtchat=vista.findViewById(R.id.mio_moptxtchat);
+        txtchat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Navigation.findNavController(view).navigate(R.id.nav_misordeneschatcliente);
             }
         });
         return vista;

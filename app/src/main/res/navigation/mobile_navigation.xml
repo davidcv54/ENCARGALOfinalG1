@@ -42,6 +42,12 @@
         android:label="@string/menu_misordenes"
         tools:layout="@layout/fragment_mio_frgchatcliente" />
 
+    <fragment
+        android:id="@+id/nav_listachat"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mis_ordenes.mio_frglistachat"
+        android:label="@string/menu_misordenes"
+        tools:layout="@layout/fragment_mio_frglistachat" />
+
     ///
 
     <fragment
