@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/activity_margin"
+    android:gravity="center_horizontal"
+    android:padding="50dp"
+    tools:context=".tendero.Inicio_sesion.ui.Mis_ordenes.mio_frgchatcliente">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DETALLE DEL PEDIDO N°:"
+            android:textColor="@color/blackPrimary"
+            android:paddingTop="10dp"/>
+
+        <TextView
+            android:id="@+id/txt_num_pedido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="00000000"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/blackPrimary"
+            android:paddingTop="10dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_Nombres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mio_varstrchatcliente1"
+        android:layout_marginTop="36dp"
+        android:textColor="@color/blackPrimary"/>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="40dp"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/mio_ccbtndetalle"
+            android:layout_width="110dp"
+            android:layout_height="35dp"
+            android:background="@color/whitePrimary"
+            android:text="@string/mio_varstrchatcliente2" />
+
+        <Button
+            android:id="@+id/mio_ccbtnchat"
+            android:layout_width="110dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="50dp"
+            android:background="@color/green_600"
+            android:text="@string/mio_varstrchatcliente3"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </LinearLayout>
+
+</LinearLayout>

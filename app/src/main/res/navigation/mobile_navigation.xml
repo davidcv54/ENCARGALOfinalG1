@@ -19,9 +19,30 @@
 
     <fragment
         android:id="@+id/nav_mis_ordenes"
-        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mis_ordenes.od_frgmenumisordenes"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mis_ordenes.mio_frgmisordenesprincipal"
         android:label="@string/menu_misordenes"
-        tools:layout="@layout/fragment_od_frgmenumisordenes" />
+        tools:layout="@layout/fragment_mio_frgmisordenesprincipal" />
+
+    ///
+    <fragment
+        android:id="@+id/nav_misordenesdetallepedido"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mis_ordenes.mio_frgdetallepedido"
+        android:label="@string/menu_misordenes"
+        tools:layout="@layout/fragment_mio_frgdetallepedido" />
+
+    <fragment
+        android:id="@+id/nav_misordenesdetalleproducto"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mis_ordenes.mio_frgdetalleproducto"
+        android:label="@string/menu_misordenes"
+        tools:layout="@layout/fragment_mio_frgdetalleproducto" />
+
+    <fragment
+        android:id="@+id/nav_misordeneschatcliente"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mis_ordenes.mio_frgchatcliente"
+        android:label="@string/menu_misordenes"
+        tools:layout="@layout/fragment_mio_frgchatcliente" />
+
+    ///
 
     <fragment
         android:id="@+id/nav_mi_publicidad"

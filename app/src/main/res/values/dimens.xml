@@ -7,6 +7,8 @@
 
     <dimen name="activity_margin">16dp</dimen>
 
+    <dimen name="lyt_marginBottom">20dp</dimen>
+
     <dimen name="btn_type_padding">10dp</dimen>
 
     <dimen name="btn_type05_paddingLeft">10dp</dimen>
@@ -23,5 +25,9 @@
     <dimen name="mdl_width">343dp</dimen>
     <dimen name="input_padding">10dp</dimen>
     <dimen name="input_marginRight">10dp</dimen>
+    <dimen name="input_marginBottom">10dp</dimen>
+
+    <dimen name="txt_marginBottom">10dp</dimen>
+    <dimen name="txt_marginRigth">10dp</dimen>
 
 </resources>
