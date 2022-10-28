@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tendero.Inicio_sesion.is_actverificacioncodigo"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/activity_margin"
+    android:gravity="center_horizontal"
+    android:padding="50dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/is_varstrverificacioncodigo1"
+        android:layout_marginTop="36dp"
+        android:textColor="@color/blackPrimary"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/is_varstrverificacioncodigo2"
+        android:layout_marginTop="36dp"
+        android:textColor="@color/blackPrimary"/>
+    <EditText
+        android:id="@+id/is_vcedtcodigoverificacion"
+        android:layout_marginTop="36dp"
+        android:layout_width="350dp"
+        android:layout_height="42dp"
+        android:gravity="center_horizontal"
+        android:hint="@string/is_varstrverificacioncodigo3"/>
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingTop="40dp"
+        android:gravity="center"
+        android:layout_marginTop="230dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/is_vcbtnreenviarcodigo"
+            android:layout_width="110dp"
+            android:layout_height="35dp"
+            android:background="@color/cyan_600"
+            android:text="@string/is_varstrverificacioncodigo4" />
+
+        <Button
+            android:id="@+id/is_vcbtncontinuar"
+            android:layout_width="110dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="50dp"
+            android:background="@color/cyan_600"
+            android:text="@string/is_varstrverificacioncodigo5"
+            app:layout_constraintEnd_toEndOf="parent" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

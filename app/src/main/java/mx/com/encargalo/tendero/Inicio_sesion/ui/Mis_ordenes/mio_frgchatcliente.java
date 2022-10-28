@@ -17,5 +17,6 @@ public class mio_frgchatcliente extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_mio_frgchatcliente, container, false);
+
     }
 }
