@@ -6,6 +6,15 @@
     android:orientation="vertical"
     tools:context=".tendero.Inicio_sesion.ui.Mis_ordenes.mio_frgdetallepedido">
 
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DETALLE DEL PEDIDO"
+        android:gravity="center"
+        android:textColor="@color/blackPrimary"
+        android:textSize="30dp"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -19,7 +28,7 @@
             android:paddingTop="10dp"/>
 
         <TextView
-            android:id="@+id/txt_num_pedido"
+            android:id="@+id/mio_txtnumpedido"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="00000000"
@@ -33,7 +42,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/mio_varstrdetallepedido1"
-        android:textColor="@color/blackPrimary"/>
+        android:textColor="@color/blackPrimary"
+        android:textSize="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/blackPrimary"
+            android:text="Asignar repartidor"
+            android:textSize="16dp"/>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="50dp">
+
+        </Spinner>
+    </LinearLayout>
 
     <LinearLayout
         android:layout_height="wrap_content"
@@ -43,22 +70,12 @@
         android:orientation="horizontal"
         >
 
-        <Button
-            android:id="@+id/mio_dpbtndetalle"
-            android:layout_width="139dp"
-            android:layout_height="match_parent"
-            android:text="@string/mio_varstrdetallepedido2"
-            android:layout_marginTop="9dp"
-            android:layout_marginHorizontal="20dp"
-            android:background="@color/green_600"
-            android:textColor="@color/blackPrimary"/>
 
         <Button
             android:id="@+id/mio_dpbtnchat"
-            android:layout_width="139dp"
+            android:layout_width="300dp"
             android:layout_height="match_parent"
             android:text="@string/mio_varstrdetallepedido3"
-            android:layout_marginTop="9dp"
             android:layout_marginHorizontal="20dp"
             android:background="@color/whitePrimary"
             android:textColor="@color/blackPrimary"/>
@@ -124,14 +141,12 @@
         android:gravity="center_horizontal"
         android:hint="@string/mio_varstrdetallepedido10" />
 
-    <Spinner
-        android:id="@+id/mio_spproductos"
-        android:layout_width="390dp"
-        android:layout_height="42dp"
-        android:spinnerMode="dropdown"
-        android:layout_marginTop="16dp"
-        android:text="@string/mio_varstrdetallepedido11"
-        android:gravity="center_horizontal"
-        />
+    <Button
+        android:id="@+id/mio_dpbtndetalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VER PRODUCTOS"
+        >
 
+    </Button>
 </LinearLayout>

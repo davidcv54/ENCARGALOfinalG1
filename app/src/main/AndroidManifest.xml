@@ -9,7 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".mio_chat_conversacion"></activity>
         <activity android:name=".activity_is_actverificacioncodigo" />
         <activity android:name=".activity_is_actiniciarsesionprincipal" />
         <activity android:name=".activity_is_actcrearunacuenta" />

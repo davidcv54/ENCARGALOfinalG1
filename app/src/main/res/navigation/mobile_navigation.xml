@@ -37,16 +37,16 @@
         tools:layout="@layout/fragment_mio_frgdetalleproducto" />
 
     <fragment
-        android:id="@+id/nav_misordeneschatcliente"
-        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mis_ordenes.mio_frgchatcliente"
-        android:label="@string/menu_misordenes"
-        tools:layout="@layout/fragment_mio_frgchatcliente" />
-
-    <fragment
-        android:id="@+id/nav_listachat"
+        android:id="@+id/nav_misordeneslistachat"
         android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mis_ordenes.mio_frglistachat"
         android:label="@string/menu_misordenes"
         tools:layout="@layout/fragment_mio_frglistachat" />
+
+    <fragment
+        android:id="@+id/nav_misordenesconversacion"
+        android:name="mx.com.encargalo.tendero.Inicio_sesion.ui.Mis_ordenes.mio_frgconversacion"
+        android:label="@string/menu_misordenes"
+        tools:layout="@layout/fragment_mio_frgconversacion" />
 
     ///
 

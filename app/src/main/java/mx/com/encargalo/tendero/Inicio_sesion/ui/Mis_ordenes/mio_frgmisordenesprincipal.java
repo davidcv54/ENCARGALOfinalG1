@@ -25,14 +25,14 @@ public class mio_frgmisordenesprincipal extends Fragment {
         txtdetalle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Navigation.findNavController(view).navigate(R.id.nav_misordenesdetalleproducto);
+                Navigation.findNavController(view).navigate(R.id.nav_misordenesdetallepedido);
             }
         });
         txtchat=vista.findViewById(R.id.mio_moptxtchat);
         txtchat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Navigation.findNavController(view).navigate(R.id.nav_misordeneschatcliente);
+                Navigation.findNavController(view).navigate(R.id.nav_misordeneslistachat);
             }
         });
         return vista;

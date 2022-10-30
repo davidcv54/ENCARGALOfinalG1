@@ -52,12 +52,6 @@
 
             android:textColor="@color/blackPrimary" />
 
-        <CheckBox
-            android:id="@+id/is_chkbdetalleproducto2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="250dp" />
-
     </LinearLayout>
 
     <LinearLayout
