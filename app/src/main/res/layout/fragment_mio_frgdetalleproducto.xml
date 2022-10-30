@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
+    android:layout_margin="@dimen/activity_margin"
     tools:context=".tendero.Inicio_sesion.ui.Mis_ordenes.mio_frgdetalleproducto">
 
     <LinearLayout
@@ -15,7 +16,8 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="DETALLE DEL PEDIDO N°:"
+            android:text="@string/mio_varstrdetalleproducto1"
+            android:textAllCaps="false"
             android:textColor="@color/blackPrimary"
             android:paddingTop="10dp"/>
 
@@ -41,7 +43,7 @@
             android:id="@+id/mio_dptxtproductos"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/mio_varstrdetalleproducto1"
+            android:text="@string/mio_varstrdetalleproducto2"
 
             android:textColor="@color/blackPrimary" />
         <TextView
@@ -120,7 +122,7 @@
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="30dp"/>
+                android:layout_margin="20dp"/>
 
         </LinearLayout>
 
@@ -163,20 +165,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="2dp"
-                    android:hint="@string/mio_varstrdetalleproducto2"
+                    android:hint="@string/mio_varstrdetalleproducto3"
                     android:textColor="@color/blackPrimary"
                     android:textSize="15sp"
                     android:textStyle="bold" />
 
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="2dp"
-                    android:hint="@string/mio_varstrdetalleproducto3"
-                    android:textColor="@color/blackPrimary"
-                    android:textSize="18sp"
-                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -187,12 +180,21 @@
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:hint="@string/mio_varstrdetalleproducto5"
+                    android:textColor="@color/blackPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
             </LinearLayout>
 
             <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="30dp"/>
+                android:layout_margin="20dp"/>
 
         </LinearLayout>
 
@@ -206,18 +208,22 @@
 
         <Button
             android:id="@+id/mio_dpbtncancelarorden"
-            android:layout_width="110dp"
-            android:layout_height="35dp"
+            android:layout_width="@dimen/btn_type03_width"
+            android:layout_height="wrap_content"
             android:background="@color/redPrimary"
-            android:text="@string/mio_varstrdetalleproducto5" />
+            android:text="@string/mio_varstrdetalleproducto6"
+            android:textAllCaps="false"
+            android:radius="10dp"/>
 
         <Button
             android:id="@+id/is_dpbtnenviar"
-            android:layout_width="110dp"
-            android:layout_height="35dp"
+            android:layout_width="@dimen/btn_type03_width"
+            android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"
             android:background="@color/orangePrimary"
-            android:text="@string/mio_varstrdetalleproducto6"
+            android:text="@string/mio_varstrdetalleproducto7"
+            android:radius="10dp"
+            android:textAllCaps="false"
             app:layout_constraintEnd_toEndOf="parent" />
     </LinearLayout>
 

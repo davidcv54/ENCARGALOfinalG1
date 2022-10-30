@@ -4,6 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/grey_400"
+    android:layout_margin="@dimen/activity_margin"
     tools:context=".tendero.Inicio_sesion.ui.Mis_ordenes.mio_frgdetallepedido">
 
 
@@ -70,14 +72,21 @@
         android:orientation="horizontal"
         >
 
-
         <Button
-            android:id="@+id/mio_dpbtnchat"
-            android:layout_width="300dp"
+            android:id="@+id/mio_dpbtndetalle"
+            android:layout_width="@dimen/btn_type03_width"
             android:layout_height="match_parent"
             android:text="@string/mio_varstrdetallepedido3"
             android:layout_marginHorizontal="20dp"
-            android:background="@color/whitePrimary"
+            android:background="@color/green_600"
+            android:textColor="@color/blackPrimary"/>
+        <Button
+            android:id="@+id/mio_dpbtnchat"
+            android:layout_width="@dimen/btn_type03_width"
+            android:layout_height="match_parent"
+            android:text="@string/mio_varstrdetallepedido3"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/containedbutton_white"
             android:textColor="@color/blackPrimary"/>
 
 
@@ -125,10 +134,28 @@
         android:textSize="10dp"
         android:layout_marginTop="20dp"/>
     <TextView
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="2dp"
         android:text="@string/mio_varstrdetallepedido9"
+        android:textColor="@color/blackPrimary"
+        android:textSize="10dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:text="@string/mio_varstrdetallepedido10"
+        android:textColor="@color/blackPrimary"
+        android:textSize="10dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:text="@string/mio_varstrdetallepedido11"
         android:textColor="@color/blackPrimary"
         android:textSize="15dp"
         android:layout_marginTop="20dp"/>
@@ -139,13 +166,14 @@
         android:layout_height="42dp"
         android:layout_marginTop="16dp"
         android:gravity="center_horizontal"
-        android:hint="@string/mio_varstrdetallepedido10" />
+        android:hint="@string/mio_varstrdetallepedido12" />
 
     <Button
         android:id="@+id/mio_dpbtndetalle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="VER PRODUCTOS"
+        android:background="@drawable/containedbutton_white"
         >
 
     </Button>

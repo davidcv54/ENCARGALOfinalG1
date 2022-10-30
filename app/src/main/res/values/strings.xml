@@ -40,11 +40,11 @@
     <string name="is_varstrcrearunacuenta7">Registrarse</string>
 
     <!-- is_verificacioncodigo -->
-    <string name="is_varstrverificacioncodigo1">INGRESA EL CÓDIGO DE VERIFICACIÓN</string>
+    <string name="is_varstrverificacioncodigo1">Ingrese el código de verificación</string>
     <string name="is_varstrverificacioncodigo2">Se le ha enviado un código de verificación a tu cuenta de correo</string>
-    <string name="is_varstrverificacioncodigo3">ingrese código</string>
+    <string name="is_varstrverificacioncodigo3">Ingrese código</string>
     <string name="is_varstrverificacioncodigo4">Reenviar Código</string>
-    <string name="is_varstrverificacioncodigo5">ingrese código</string>
+    <string name="is_varstrverificacioncodigo5">Ingrese código</string>
 
 
     <!-- O2 MÓDULO MIS ÓRDENES -->
@@ -81,20 +81,23 @@
     <string name="mio_varstrdetallepedido2">Detalle</string>
     <string name="mio_varstrdetallepedido3">Chat</string>
     <string name="mio_varstrdetallepedido4">Estado de pedido</string>
-    <string name="mio_varstrdetallepedido5">Solicitud creada</string>
-    <string name="mio_varstrdetallepedido6">Preparada</string>
-    <string name="mio_varstrdetallepedido7">En reparto</string>
-    <string name="mio_varstrdetallepedido8">Entregado</string>
-    <string name="mio_varstrdetallepedido9">Dirección de entrega</string>
-    <string name="mio_varstrdetallepedido10">dirección</string>
-    <string name="mio_varstrdetallepedido11">Productos</string>
+    <string name="mio_varstrdetallepedido5">Solicitada</string>
+    <string name="mio_varstrdetallepedido6">Acepta/Rechazado</string>
+    <string name="mio_varstrdetallepedido7">En Preparación</string>
+    <string name="mio_varstrdetallepedido8">En Camino</string>
+    <string name="mio_varstrdetallepedido9">Entregado</string>
+    <string name="mio_varstrdetallepedido10">Reclamado</string>
+    <string name="mio_varstrdetallepedido11">Dirección de entrega</string>
+    <string name="mio_varstrdetallepedido12">dirección</string>
+    <string name="mio_varstrdetallepedido13">Productos</string>
     <!-- mio_detalleproducto -->
-    <string name="mio_varstrdetalleproducto1">Productos:</string>
-    <string name="mio_varstrdetalleproducto2">Agua mineral San Carlos 500ml</string>
-    <string name="mio_varstrdetalleproducto3">s/1.5 x un</string>
-    <string name="mio_varstrdetalleproducto4">1 un s/1.5</string>
-    <string name="mio_varstrdetalleproducto5">Cancelar Orden</string>
-    <string name="mio_varstrdetalleproducto6">Enviar</string>
+    <string name="mio_varstrdetalleproducto1">Detalle pedidos N:</string>
+    <string name="mio_varstrdetalleproducto2">Productos:</string>
+    <string name="mio_varstrdetalleproducto3">Agua mineral San Carlos 500ml</string>
+    <string name="mio_varstrdetalleproducto4">s/1.5 x un</string>
+    <string name="mio_varstrdetalleproducto5">1 un s/1.5</string>
+    <string name="mio_varstrdetalleproducto6">Cancelar Orden</string>
+    <string name="mio_varstrdetalleproducto7">Enviar</string>
 
     <!-- mio_chatcliente-->
     <string name="mio_varstrchatcliente1">Nombre completo del cliente</string>
