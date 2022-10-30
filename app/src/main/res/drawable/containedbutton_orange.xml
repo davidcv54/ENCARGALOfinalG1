@@ -10,6 +10,6 @@
         android:bottom="@dimen/btn_type_padding"
         />
     <corners
-        android:radius="20 dp"
+        android:radius="20dp"
         />
 </shape>

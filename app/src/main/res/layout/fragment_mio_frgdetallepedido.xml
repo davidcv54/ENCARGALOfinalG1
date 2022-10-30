@@ -73,14 +73,6 @@
         >
 
         <Button
-            android:id="@+id/mio_dpbtndetalle"
-            android:layout_width="@dimen/btn_type03_width"
-            android:layout_height="match_parent"
-            android:text="@string/mio_varstrdetallepedido3"
-            android:layout_marginHorizontal="20dp"
-            android:background="@color/green_600"
-            android:textColor="@color/blackPrimary"/>
-        <Button
             android:id="@+id/mio_dpbtnchat"
             android:layout_width="@dimen/btn_type03_width"
             android:layout_height="match_parent"
