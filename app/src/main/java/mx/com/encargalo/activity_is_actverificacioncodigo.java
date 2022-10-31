@@ -13,21 +13,19 @@ import mx.com.encargalo.tendero.Inicio_sesion.ui.Mis_ordenes.mio_frgmisordenespr
 
 public class activity_is_actverificacioncodigo extends AppCompatActivity {
     Button btnvalidar;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_is_actverificacioncodigo);
-        btnvalidar=(Button)findViewById(R.id.is_vcbtncontinuar);
-        btnvalidar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                Intent verificarcodigo = new Intent(activity_is_actverificacioncodigo.this, MainActivity.class);
-                startActivity(verificarcodigo);
-            }
-
-        });
+btnvalidar=(Button)findViewById(R.id.is_vcbtncontinuar);
+btnvalidar.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View view) {
+        Intent verif = new Intent(activity_is_actverificacioncodigo.this, MainActivity.class);
+        startActivity(verif);
+    }
+});
 
     }
 }
+
