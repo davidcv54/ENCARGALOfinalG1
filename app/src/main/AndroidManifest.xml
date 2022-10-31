@@ -10,18 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".activity_is_actverificacioncodigo" />
-        <activity android:name=".activity_is_actiniciarsesionprincipal" />
-        <activity android:name=".activity_is_actcrearunacuenta" />
-        <activity
-            android:name=".tendero.Inicio_sesion.MainActivity"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".activity_is_actiniciarsesionprincipal" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activity_is_actcrearunacuenta" />
+        <activity
+            android:name=".tendero.Inicio_sesion.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
     </application>
 
 </manifest>
