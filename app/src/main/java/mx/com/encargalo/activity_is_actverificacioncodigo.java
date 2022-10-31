@@ -18,6 +18,7 @@ public class activity_is_actverificacioncodigo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_is_actverificacioncodigo);
 btnvalidar=(Button)findViewById(R.id.is_vcbtncontinuar);
+//VALIDAR Y ENVIAR A MIS ORDENES PRINCIPAL
 btnvalidar.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View view) {
