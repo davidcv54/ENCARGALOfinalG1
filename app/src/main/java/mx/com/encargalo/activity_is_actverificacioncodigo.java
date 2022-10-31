@@ -20,9 +20,12 @@ public class activity_is_actverificacioncodigo extends AppCompatActivity {
         setContentView(R.layout.activity_is_actverificacioncodigo);
         btnvalidar=(Button)findViewById(R.id.is_vcbtncontinuar);
         btnvalidar.setOnClickListener(new View.OnClickListener() {
+            @Override
             public void onClick(View view) {
-                getSupportFragmentManager().beginTransaction()
-                        .add(android.R.id.content, new mio_frgmisordenesprincipal()).commit();}
+
+                Intent verificarcodigo = new Intent(activity_is_actverificacioncodigo.this, MainActivity.class);
+                startActivity(verificarcodigo);
+            }
 
         });
 
