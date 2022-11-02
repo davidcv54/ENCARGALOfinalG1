@@ -32,7 +32,7 @@ public class mio_frgmisordenesprincipal extends Fragment {
         txtchat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Navigation.findNavController(view).navigate(R.id.nav_misordeneslistachat);
+                Navigation.findNavController(view).navigate(R.id.nav_misordenesconversacion);
             }
         });
         return vista;

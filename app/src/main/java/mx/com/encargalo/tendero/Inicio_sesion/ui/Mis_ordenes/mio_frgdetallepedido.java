@@ -31,7 +31,7 @@ public class mio_frgdetallepedido extends Fragment {
         dpbtnchat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Navigation.findNavController(view).navigate(R.id.nav_misordeneslistachat);
+                Navigation.findNavController(view).navigate(R.id.nav_misordenesconversacion);
             }
         });
 

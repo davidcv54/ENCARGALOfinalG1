@@ -33,19 +33,35 @@
             android:id="@+id/mio_txtnumpedido"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:hint="00000000"
             android:layout_marginLeft="10dp"
-            android:textColor="@color/blackPrimary"
-            android:paddingTop="10dp"/>
+            android:hint="00000001"
+            android:paddingTop="10dp"
+            android:textColor="@color/blackPrimary" />
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
     <TextView
         android:id="@+id/txt_Nombres"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/mio_varstrdetallepedido1"
+        android:text="Cliente:"
         android:textColor="@color/blackPrimary"
         android:textSize="16dp"/>
+
+    <TextView
+        android:id="@+id/mio_txtnumpedido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Juan Valverde"
+        android:paddingTop="10dp"
+        android:textColor="@color/blackPrimary" />
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -58,10 +74,16 @@
             android:text="Asignar repartidor"
             android:textSize="16dp"/>
         <Spinner
-            android:layout_width="wrap_content"
-            android:layout_height="50dp">
+            android:id="@+id/is_sptipopersona"
+            android:layout_width="180dp"
+            android:layout_height="42dp"
+            android:spinnerMode="dropdown"
+            android:layout_marginTop="16dp"
+            android:hint="Seleccione repartidor"
+            android:entries="@array/repartidores"
+            android:gravity="center_horizontal"
+            ></Spinner>
 
-        </Spinner>
     </LinearLayout>
 
     <LinearLayout
@@ -158,7 +180,7 @@
         android:layout_height="42dp"
         android:layout_marginTop="16dp"
         android:gravity="center_horizontal"
-        android:hint="@string/mio_varstrdetallepedido12" />
+        android:hint="Calle las Gardenias 1705" />
 
     <Button
         android:id="@+id/mio_dpbtndetalle"
