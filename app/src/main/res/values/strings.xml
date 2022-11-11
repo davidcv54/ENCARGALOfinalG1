@@ -61,8 +61,8 @@
     <string name="mio_varstrmisordenesprincipal9">Filtrar por fecha</string>
     <string name="mio_varstrmisordenesprincipal3">ID ORDEN:</string>
     <string name="mio_varstrmisordenesprincipal4">Nombre completo del cliente:</string>
-    <string name="mio_varstrmisordenesprincipal5">Órden creada el:</string>
-    <string name="mio_varstrmisordenesprincipal6">Órden entregada el:</string>
+    <string name="mio_varstrmisordenesprincipal5">Orden creada el:</string>
+    <string name="mio_varstrmisordenesprincipal6">Estado de orden:</string>
     <string name="mio_varstrmisordenesprincipal7">Detalle</string>
     <string name="mio_varstrmisordenesprincipal8">Chat</string>
 
